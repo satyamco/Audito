@@ -50,7 +50,7 @@ const Form = ({ onClick, addReview }) => {
     };
 
     return (
-        <div className='card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 absolute scroll-auto'>
+        <div className='card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 absolute scroll-auto z-50'>
             <form className='card-body' onSubmit={handleSubmit}>
                 <IoMdClose
                     size={25}
